@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Embroidery Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convert Image to Embroidery</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <select id="formatSelect">
+            <option value="dst">DST</option>
+            <option value="pes">PES</option>
+            <option value="jef">JEF</option>
+            <!-- Add other formats -->
+        </select>
+        <button onclick="uploadImage()">Convert</button>
+        <div id="outputMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
